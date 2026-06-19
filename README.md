@@ -2,7 +2,6 @@
 
 This repository implements a compact GPT-2 style language model in PyTorch and explains the main parts of the architecture.
 
-The goal is educational clarity, not training a full 1.5B parameter GPT-2 model.
 
 ## What Is Implemented
 
