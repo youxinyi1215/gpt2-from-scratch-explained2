@@ -136,3 +136,9 @@ python generate.py --prompt "To be" --max-new-tokens 80
 ```bash
 pytest
 ```
+
+## References
+
+- OpenAI GPT-2 Paper
+- Andrej Karpathy nanoGPT
+- PyTorch Documentation
