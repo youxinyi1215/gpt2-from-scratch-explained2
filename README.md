@@ -138,7 +138,3 @@ python generate.py --prompt "To be" --max-new-tokens 80
 ```bash
 pytest
 ```
-
-## Notes
-
-The original GPT-2 has many more parameters and was trained on a very large dataset. This repository keeps the same core idea but uses a small configuration so it can be read, tested, and trained on a normal computer.
