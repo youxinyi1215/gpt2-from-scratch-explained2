@@ -1,12 +1,11 @@
-GPT-2 From Scratch Explained
+## GPT-2 From Scratch Explained
 
 This repository implements a compact GPT-2 style language model in PyTorch and explains the main parts of the architecture.
 
 
-What Is Implemented
+## What Is Implemented
 
-- Token embedding
-- Positional embedding
+- How GPT-2 understands word order
 - Causal self-attention
 - Multi-head attention
 - Feed-forward network
@@ -14,7 +13,7 @@ What Is Implemented
 - Autoregressive next-token training
 - Text generation with temperature and top-k sampling
 
-Project Structure
+## Project Structure
 
 ```text
 gpt2-from-scratch-explained/
@@ -32,7 +31,7 @@ gpt2-from-scratch-explained/
     └── test_model.py
 ```
 
-Quick Start
+## Quick Start
 
 ```bash
 python -m venv .venv
@@ -42,7 +41,7 @@ python train.py
 python generate.py --prompt "To be"
 ```
 
-On macOS or Linux:
+## On macOS or Linux:
 
 ```bash
 python -m venv .venv
@@ -52,7 +51,7 @@ python train.py
 python generate.py --prompt "To be"
 ```
 
-GPT-2 Architecture Explanation
+## GPT-2 Architecture Explanation
 
 GPT-2 is a decoder-only Transformer language model. It receives a sequence of token IDs and predicts the next token at each position.
 
