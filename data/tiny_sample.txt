@@ -1,7 +1,0 @@
-To be, or not to be, that is the question.
-Whether it is nobler in the mind to suffer
-The slings and arrows of outrageous fortune,
-Or to take arms against a sea of troubles.
-
-The model in this repository learns one small character-level language task.
-It is intentionally tiny so the code is easy to understand.
